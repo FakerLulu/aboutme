@@ -1,0 +1,50 @@
+body{
+  background-color: #777777;
+}
+#header, #container, #footer{
+  overflow: auto;
+  margin:5px;
+  background-color: white;
+  box-shadow: 0px 5px 0px #888888;
+}
+#header > ul{
+  float: right;
+  list-style: none;
+
+}
+li{
+
+  display: inline;
+}
+
+.div_menu{
+  margin: 10px 20px 10px 20px;
+  width: 150px;
+  height: 40px;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+  background-color: #aaeeaa;
+  box-shadow: 5px 5px 8px #888888;
+}
+
+#container{
+  text-align: left;
+  padding: 10px 10% 10px 10%;
+  1height: 750px;
+}
+#container > article{
+margin: 20px;
+}
+
+.div_about > a{
+  text-decoration: none;
+}
+
+
+#footer{
+  text-align: center;
+  color: gray;
+  padding: 20px;
+}
